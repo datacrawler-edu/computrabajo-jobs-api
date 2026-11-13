@@ -1,0 +1,145 @@
+{
+  "repository": {
+    "name": "computrabajo-jobs-api",
+    "description": "Computrabajo jobs API examples: search five Latin American countries with Python, JavaScript or cURL, batch keywords and export job datasets to CSV.",
+    "homepage": "https://apify.com/datascraperes/computrabajo-jobs-extractor?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Computrabajo Jobs Scraper | Advanced Filters",
+    "id": "datascraperes/computrabajo-jobs-extractor",
+    "storeUrl": "https://apify.com/datascraperes/computrabajo-jobs-extractor",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~computrabajo-jobs-extractor",
+    "description": "Extract public Computrabajo jobs in Colombia, Mexico, Peru, Chile and Argentina. Filter by city, salary, contract, experience and work arrangement. Get descriptions and optional company profiles, then export unique jobs to JSON, CSV or Excel."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/computrabajo-jobs-extractor?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "query",
+      "inputLabel": "Job keyword",
+      "inputSummary": "Choose a country, enter a job keyword and optionally an exact city; limit the number of jobs.",
+      "exportFormats": [
+        "JSON",
+        "CSV",
+        "Excel"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Computrabajo jobs API Python CSV export",
+    "secondaryKeywords": [
+      "Computrabajo Python API examples",
+      "Colombia Mexico Peru Chile Argentina jobs data",
+      "batch Computrabajo job searches"
+    ],
+    "topics": [
+      "apify",
+      "computrabajo",
+      "jobs",
+      "python",
+      "javascript",
+      "csv-export"
+    ],
+    "longTailIntents": [
+      "Export Computrabajo jobs to CSV with Python",
+      "Run keyword searches in separate countries",
+      "Read complete or partial collection summaries"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/collect_jobs.py",
+      "examples/python/batch_job_searches.py",
+      "examples/python/export_jobs_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per event for each unique job saved and verified; platform use included, no startup event.",
+    "unit": "one unique saved and verified job",
+    "price": "USD 1.00 per 1,000 FREE-tier job events; discounted tiers on the Actor Pricing tab"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/computrabajo-jobs-api",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/computrabajo-jobs-api",
+    "githubToActorUrl": "https://apify.com/datascraperes/computrabajo-jobs-extractor?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v1.0.0",
+      "title": "Computrabajo API examples and CSV export"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/computrabajo-jobs-api",
+      "Computrabajo jobs API Python CSV export"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/computrabajo-jobs-api/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/computrabajo-jobs-extractor?fpr=edudata"
+  }
+}

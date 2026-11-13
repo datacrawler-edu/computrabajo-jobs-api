@@ -1,0 +1,21 @@
+{
+  "country": "co",
+  "query": "programador",
+  "location": "",
+  "maxResults": 3,
+  "workArrangements": [],
+  "postedWithin": "any",
+  "sortBy": "relevance",
+  "feed": "search",
+  "includeDetails": true,
+  "includeCompact": false,
+  "includeCompanyProfiles": false,
+  "categoryIds": [],
+  "contractIds": [],
+  "salaryIds": [],
+  "employmentIds": [],
+  "experienceIds": [],
+  "maxPages": 10,
+  "workplaceTypeIds": [],
+  "updatedSinceId": 0
+}
